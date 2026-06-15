@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.janstach.cz)",
+      "PowerShell(if \\(-not \\(Test-Path \"C:\\\\Users\\\\hpark\\\\Documents\\\\Web\"\\)\\) { New-Item -ItemType Directory -Path \"C:\\\\Users\\\\hpark\\\\Documents\\\\Web\" }; Get-ChildItem \"C:\\\\Users\\\\hpark\\\\Documents\\\\Web\")"
+    ]
+  }
+}
